@@ -1,0 +1,5 @@
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+
+
+
+text_splitter = RecursiveCharacterTextSplitter.from_huggingface_tokenizer()
